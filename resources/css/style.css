@@ -1,0 +1,109 @@
+body {
+    background-color: #cdcdcd;
+    margin: 1%;
+}
+
+header.cabecalho {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+nav.navegacao {
+    font-size: larger;
+}
+
+img#poke {
+    padding-left: 30px;
+    width: 250px;
+}
+
+main.principal {
+    display: flex;
+    justify-content: center;
+}
+
+div.pokemon {
+    background-color: #d63030;
+    border-radius: 10px;
+    width: 700px;
+    display: inline-block;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    padding: 2%
+}
+
+pokemon {
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 20px
+}
+
+pokemon.name {
+    font-size: 50px;
+}
+pokemon.id {
+    font-size: 35px;
+}
+
+div.progress {
+    width: 80%;
+}
+
+div.progress-bar { 
+    color: black;
+    background-color: #23acfd;
+}
+
+pokemon.stats {
+    padding-bottom: 90px;
+    font-size: 15px;
+}
+
+div.group {
+    background-color: #23acfd;
+    padding-top: 2%;
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-color: #cdcdcd;
+        margin: 0%;
+    }
+
+    img#poke {
+        width: 40%;
+    }
+
+    img#titulo {
+        width: 90%;
+    }
+
+    pokemon.name {
+        font-size: 300%;
+    }
+    pokemon.id {
+        font-size: 150%;
+    }
+    
+    div.progress {
+        width: 90%;
+        margin-top: 0;
+    }
+
+    div.pokemon {
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    pokemon {
+        font-size: 100%;
+        width: 100%;
+        padding-left: 20px;
+        justify-content: center;
+    }
+
+    main.principal {
+        display: flex;
+        justify-content: center;
+    }
+ }
